@@ -1,0 +1,19 @@
+.myheading{
+    animation-name: slideranime ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+@keyframes slideranime {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 34px));
+    }
+}

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Test Founders Grotesk X-Cond Sm8d";
+  src: local("Test Founders Grotesk X-Cond Sm8d"),
+    url("../Fonts/FoundersGrotesk-Semibold.ttf") format("truetype");
+}
+
+.Myfont{
+  font-family: "Test Founders Grotesk X-Cond Sm8d", sans-serif;
+}
